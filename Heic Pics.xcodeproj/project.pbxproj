@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4D01F22CF0E02E00523C6C /* Watcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D01F12CF0E02E00523C6C /* Watcher.swift */; };
+		0A5F4F302CF6231B0035831C /* ImageConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F4F2F2CF6231B0035831C /* ImageConverter.swift */; };
+		0A5F4F342CF63F500035831C /* GettingStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F4F332CF63F500035831C /* GettingStartedView.swift */; };
+		0A5F4F382CF645210035831C /* FocusWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F4F372CF645210035831C /* FocusWindow.swift */; };
+		0AAB6AD92CEE1F03004FA719 /* HeicPicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB6AD82CEE1F03004FA719 /* HeicPicsApp.swift */; };
+		0AAB6ADB2CEE1F03004FA719 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB6ADA2CEE1F03004FA719 /* ContentView.swift */; };
+		0AAB6ADD2CEE1F04004FA719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB6ADC2CEE1F04004FA719 /* Assets.xcassets */; };
+		0AAB6AE02CEE1F04004FA719 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB6ADF2CEE1F04004FA719 /* Preview Assets.xcassets */; };
+		0AAB6AEA2CEE2654004FA719 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB6AE92CEE2654004FA719 /* SettingsView.swift */; };
+		0AB9DBC92CEE4FFC00F39EF6 /* FileWatcher in Frameworks */ = {isa = PBXBuildFile; productRef = 0AB9DBC82CEE4FFC00F39EF6 /* FileWatcher */; };
+		0AE73CFC2CEFD91C0085D81D /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 0AE73CFB2CEFD91C0085D81D /* LaunchAtLogin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A4D01F12CF0E02E00523C6C /* Watcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watcher.swift; sourceTree = "<group>"; };
+		0A5F4F2F2CF6231B0035831C /* ImageConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConverter.swift; sourceTree = "<group>"; };
+		0A5F4F332CF63F500035831C /* GettingStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedView.swift; sourceTree = "<group>"; };
+		0A5F4F372CF645210035831C /* FocusWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusWindow.swift; sourceTree = "<group>"; };
+		0AAB6AD52CEE1F03004FA719 /* Heic Pics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heic Pics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAB6AD82CEE1F03004FA719 /* HeicPicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeicPicsApp.swift; sourceTree = "<group>"; };
+		0AAB6ADA2CEE1F03004FA719 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AAB6ADC2CEE1F04004FA719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AAB6ADF2CEE1F04004FA719 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AAB6AE12CEE1F04004FA719 /* Heic_Pics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Heic_Pics.entitlements; sourceTree = "<group>"; };
+		0AAB6AE92CEE2654004FA719 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0AB9DBC22CEE473000F39EF6 /* Heic-Pics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Heic-Pics-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AAB6AD22CEE1F03004FA719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE73CFC2CEFD91C0085D81D /* LaunchAtLogin in Frameworks */,
+				0AB9DBC92CEE4FFC00F39EF6 /* FileWatcher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAB6ACC2CEE1F03004FA719 = {
+			isa = PBXGroup;
+			children = (
+				0AAB6AD72CEE1F03004FA719 /* Heic Pics */,
+				0AAB6AD62CEE1F03004FA719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AAB6AD62CEE1F03004FA719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB6AD52CEE1F03004FA719 /* Heic Pics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AAB6AD72CEE1F03004FA719 /* Heic Pics */ = {
+			isa = PBXGroup;
+			children = (
+				0AB9DBC22CEE473000F39EF6 /* Heic-Pics-Info.plist */,
+				0AAB6AD82CEE1F03004FA719 /* HeicPicsApp.swift */,
+				0AAB6AE92CEE2654004FA719 /* SettingsView.swift */,
+				0AAB6ADA2CEE1F03004FA719 /* ContentView.swift */,
+				0AAB6ADC2CEE1F04004FA719 /* Assets.xcassets */,
+				0AAB6AE12CEE1F04004FA719 /* Heic_Pics.entitlements */,
+				0AAB6ADE2CEE1F04004FA719 /* Preview Content */,
+				0A4D01F12CF0E02E00523C6C /* Watcher.swift */,
+				0A5F4F2F2CF6231B0035831C /* ImageConverter.swift */,
+				0A5F4F332CF63F500035831C /* GettingStartedView.swift */,
+				0A5F4F372CF645210035831C /* FocusWindow.swift */,
+			);
+			path = "Heic Pics";
+			sourceTree = "<group>";
+		};
+		0AAB6ADE2CEE1F04004FA719 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB6ADF2CEE1F04004FA719 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AAB6AD42CEE1F03004FA719 /* Heic Pics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAB6AE42CEE1F04004FA719 /* Build configuration list for PBXNativeTarget "Heic Pics" */;
+			buildPhases = (
+				0AAB6AD12CEE1F03004FA719 /* Sources */,
+				0AAB6AD22CEE1F03004FA719 /* Frameworks */,
+				0AAB6AD32CEE1F03004FA719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heic Pics";
+			productName = "Heic Pics";
+			productReference = 0AAB6AD52CEE1F03004FA719 /* Heic Pics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AAB6ACD2CEE1F03004FA719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					0AAB6AD42CEE1F03004FA719 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 0AAB6AD02CEE1F03004FA719 /* Build configuration list for PBXProject "Heic Pics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AAB6ACC2CEE1F03004FA719;
+			packageReferences = (
+				0AB9DBC72CEE4FFC00F39EF6 /* XCRemoteSwiftPackageReference "FileWatcher" */,
+				0AE73CFA2CEFD91C0085D81D /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
+			productRefGroup = 0AAB6AD62CEE1F03004FA719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AAB6AD42CEE1F03004FA719 /* Heic Pics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AAB6AD32CEE1F03004FA719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAB6AE02CEE1F04004FA719 /* Preview Assets.xcassets in Resources */,
+				0AAB6ADD2CEE1F04004FA719 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AAB6AD12CEE1F03004FA719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAB6AEA2CEE2654004FA719 /* SettingsView.swift in Sources */,
+				0A5F4F302CF6231B0035831C /* ImageConverter.swift in Sources */,
+				0AAB6ADB2CEE1F03004FA719 /* ContentView.swift in Sources */,
+				0A4D01F22CF0E02E00523C6C /* Watcher.swift in Sources */,
+				0A5F4F342CF63F500035831C /* GettingStartedView.swift in Sources */,
+				0AAB6AD92CEE1F03004FA719 /* HeicPicsApp.swift in Sources */,
+				0A5F4F382CF645210035831C /* FocusWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AAB6AE22CEE1F04004FA719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AAB6AE32CEE1F04004FA719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0AAB6AE52CEE1F04004FA719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Icon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Heic Pics/Heic_Pics.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Heic Pics/Preview Content\"";
+				DEVELOPMENT_TEAM = REHYJ35ZW2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Heic-Pics-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HEIC Pics";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Permission is needed to automatically conver HEIC files in the Downloads folder";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mead.Heic-Pics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0AAB6AE62CEE1F04004FA719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Icon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Heic Pics/Heic_Pics.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Heic Pics/Preview Content\"";
+				DEVELOPMENT_TEAM = REHYJ35ZW2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Heic-Pics-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HEIC Pics";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Permission is needed to automatically conver HEIC files in the Downloads folder";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mead.Heic-Pics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AAB6AD02CEE1F03004FA719 /* Build configuration list for PBXProject "Heic Pics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAB6AE22CEE1F04004FA719 /* Debug */,
+				0AAB6AE32CEE1F04004FA719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAB6AE42CEE1F04004FA719 /* Build configuration list for PBXNativeTarget "Heic Pics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAB6AE52CEE1F04004FA719 /* Debug */,
+				0AAB6AE62CEE1F04004FA719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0AB9DBC72CEE4FFC00F39EF6 /* XCRemoteSwiftPackageReference "FileWatcher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eonist/FileWatcher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.3;
+			};
+		};
+		0AE73CFA2CEFD91C0085D81D /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0AB9DBC82CEE4FFC00F39EF6 /* FileWatcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AB9DBC72CEE4FFC00F39EF6 /* XCRemoteSwiftPackageReference "FileWatcher" */;
+			productName = FileWatcher;
+		};
+		0AE73CFB2CEFD91C0085D81D /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AE73CFA2CEFD91C0085D81D /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0AAB6ACD2CEE1F03004FA719 /* Project object */;
+}

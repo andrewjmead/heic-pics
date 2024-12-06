@@ -1,0 +1,24 @@
+{
+  "originHash" : "099d9496eb4d2309cbd7340e0cf3d23944c8f4b558d8ac26e3cdd1da26c90f78",
+  "pins" : [
+    {
+      "identity" : "filewatcher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eonist/FileWatcher.git",
+      "state" : {
+        "revision" : "e67c2a99502eade343fecabeca8c57e749a55b59",
+        "version" : "0.2.3"
+      }
+    },
+    {
+      "identity" : "launchatlogin-modern",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/LaunchAtLogin-Modern.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a04ec1c363be3627734f6dad757d82f5d4fa8fcc"
+      }
+    }
+  ],
+  "version" : 3
+}
